@@ -28,7 +28,7 @@ public class FirstLetters {
         // TODO: complete
         String ans = "";
         for (String word : words.split(" ")) {
-            ans += word[0];
+            ans += word.charAt(0);
         }
         return ans;
     }
