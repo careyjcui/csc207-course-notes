@@ -38,9 +38,9 @@ public class MyHashing {
    * @return the seed value from before this call
    */
   public int hash(int value) {
-    seed = this.seed;
+    int prev = this.seed;
     this.seed = value;
-    return seed;
+    return prev;
   }
 
   /**
