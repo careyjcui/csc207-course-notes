@@ -25,7 +25,7 @@ public class DigitSum {
     public static int digitSum(int n) {
         n = abs(n);
         int ans = 0;
-        while (n < 0) {
+        while (n > 0) {
             ans += n % 10;
             n = n / 10;
         }
